@@ -14,6 +14,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.constraintlayout.compose.Dimension
 import com.myapp.mysimon.ui.theme.MySimonTheme
 
 class EndgameActivity : ComponentActivity() {
@@ -48,9 +49,7 @@ class EndgameActivity : ComponentActivity() {
 fun EndScreen(modifier: Modifier = Modifier, buttonAction : () -> Unit) {
     ConstraintLayout(modifier = Modifier) {
         Button(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(),
+            modifier = Modifier,
             onClick = buttonAction) {}
     }
 }
