@@ -4,5 +4,5 @@
     <string name="delete">Cancella</string>
     <string name="endgame">Fine Partita</string>
     <string name="new_sequence">Inizia Nuova Partita</string>
-    <string name="prev_sequence">Tutte le Partite</string>
+    <string name="all_sequences">Tutte le Partite</string>
 </resources>

@@ -3,5 +3,5 @@
     <string name="delete">Delete</string>
     <string name="endgame">End Game</string>
     <string name="new_sequence">Start New Game</string>
-    <string name="prev_sequence">All Games</string>
+    <string name="all_sequences">All Games</string>
 </resources>
